@@ -25,7 +25,8 @@ public class Main {
         } else {
             System.out.println("Number of dice rolled must be higher than 0");
         }
-        
+
+        scanner.close();
     }
 
     private static void printDice(int roll) {
